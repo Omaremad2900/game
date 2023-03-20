@@ -1,8 +1,8 @@
 package model.world;
 import java.util.Random;
-public class Trapcell extends Cell {
+public class TrapCell extends Cell {
 	private int trapDamage;
-	public Trapcell() {
+	public TrapCell() {
 		Random rand = new Random();
 		trapDamage=(1+rand.nextInt(3))*10;
 	}
