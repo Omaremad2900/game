@@ -1,9 +1,5 @@
 package model.collectibles;
 
-public class Supply {
-
-	public Supply() {
-		// TODO Auto-generated constructor stub
-	}
+public class Supply implements Collectible{
 
 }
